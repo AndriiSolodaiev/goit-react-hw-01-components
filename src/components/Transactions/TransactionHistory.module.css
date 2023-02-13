@@ -1,0 +1,38 @@
+
+.transactionHistory {
+    border-collapse: collapse;
+}
+.head {
+    border: 1px solid gray;
+    font-size: 30px;
+    background-color: rgb(24, 64, 151);
+    width: 200px;
+    padding: 10px 20px;
+    color: azure;
+}
+.row {
+    border: 1px solid grey;
+}
+
+.cell {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.invoice {
+    background-color: rgba(189, 190, 130, 0.5);
+}
+
+.payment {
+    background-color: rgba(85, 185, 98, 0.5);
+}
+
+.withdrawal {
+    background-color: rgba(185, 97, 85, 0.5);
+}
+
+.deposit {
+    background-color: rgba(130, 149, 190, 0.5);
+}
